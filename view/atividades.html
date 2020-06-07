@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../bootstrap-4.5.0-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/elements.css" rel="stylesheet">
+    <title>Health Track</title>
+</head>
+
+<body>
+
+    <header class="container-fluid text-center">Health Track</header>
+    <main class="container-fluid row-full-top">
+        <div class="row">
+            <div class="col-sm-0 d-flex">
+                <div class="d-flex back" onclick="javaScript:window.document.location.assign('index.html');"> <img
+                        src="../img/play-fill.svg" /></div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <h5 class="card-title">Atividades</h5>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <td>Descricao</td>
+                                        <td><input value="Correr" class="form-control"></td>
+                                        <td rowspan="2">
+                                            <div class="row">
+                                                <div class="col text-center">
+                                                    Ações
+                                                </div>
+                                                <div class="w-100"></div>
+                                                <div class="col">
+                                                    <img class="mr-3" src="../img/pencil-square.svg"><img
+                                                        src="../img/trash2-fill.svg">
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Data</td>
+                                        <td><input value="07/06/2020" class="form-control"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Duração</td>
+                                        <td><input value="1 hora" class="form-control"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="container">
+        <div class="mx-auto"><img src="../img/check-circle-fill.svg" /></div>
+    </footer>
+
+    <script src="../bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

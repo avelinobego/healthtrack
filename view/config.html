@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../bootstrap-4.5.0-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/elements.css" rel="stylesheet">
+    <title>Health Track</title>
+</head>
+
+<body>
+
+    <header class="container-fluid text-center">Health Track</header>
+
+    <main class="container-fluid row-full-top">
+
+        <div class="row">
+            <div class="col-md-0 d-flex">
+                <div class="d-flex back" onclick="javaScript:window.document.location.assign('index.html');"> <img
+                        src="../img/play-fill.svg" /></div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <h5 class="card-title">Configuração</h5>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-4">País</div>
+                            <div class="col">
+                                <select class="form-control">
+                                    <option>Brasil</option>
+                                    <option>Wakanda</option>
+                                </select>
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="col-4">Formato data</div>
+                            <div class="col"><input class="form-control" value="dd/mm/yyyy"></div>
+                            <div class="w-100"></div>
+                            <div class="col-4">Localização</div>
+                            <div class="col">
+                                <select class="form-control">
+                                    <option>GPS</option>
+                                    <option>Manualmente</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="row container">
+            <div class="mx-auto"><img src="../img/check-circle-fill.svg" /></div>
+        </footer>
+
+        <script src="../bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+header {
+  background-color: #ff8000;
+}
+
+.photo {
+  display: block;
+  max-width: 12.5vw;
+  height: auto;
+}
+
+.row-full {
+  height: 92vh;
+  padding-top: 25vh;
+}
+
+.row-full-top {
+  height: 92vh;
+  padding-top: 10vh;
+}
+
+.image-adjust {
+  width: 25vw;
+}
+
+.btn {
+  width: 100px;
+}
+
+.card {
+  white-space: nowrap;
+  width: 100%;
+}
+
+.back {
+  background-color: gray;
+  width: 20px;
+}
