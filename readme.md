@@ -1,6 +1,4 @@
 # Projeto Health Track
 
-Este é um protótipo de telas do projeto Health Track.
-Este projeto contém apenas as telas e o bootstrap 4.
-
->Futuramente o projeto evoluirá pra conter código fonte
+Este é um trabalho acadêmico do projeto Health Track.
+O projeto Health Track visa a incentivar a prática esportiva, permitindo ao usuário controlar suas atividades e ainda por cima permitir participar de atividades em grupo.
